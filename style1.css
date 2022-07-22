@@ -1,0 +1,85 @@
+body{
+	font-family: Arial;
+	margin: 0;
+	background-color: #1C1C1C;
+
+}
+
+h1{
+	color: whitesmoke;
+}
+
+h2,h3{
+	color: black;
+}
+
+p{
+	color: grey;
+}
+
+.banner{
+	background-image:url('imagens/bridge.jpg');
+	padding: 200px  0;
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+
+}
+.banner h1{
+	font-size: 50px;
+	margin: 0;
+}
+
+.banner p{
+	color: DarkOrange;
+	font-size: 25px;
+}
+
+.container{
+	width: 850px;
+	margin: 50px auto;
+}
+
+.card{
+	background-color: Silver;
+	border: 1px solid #f0f0f0;
+	border-radius: 10px ;
+	width: 200px;
+	box-shadow: 0 0 25px grey;
+	text-align: center;
+	padding: 24px;
+	margin: 8px;
+	transition: 0.4s;
+}
+
+.card img{
+	width: 90px;
+	margin: 40px;
+	height: 80px;
+}
+
+.card h3{
+	color: blue;
+}
+
+.cards{
+	display: flex;
+	justify-content: space-between;
+}
+.footer{
+	background-color: rgb(28, 28, 28);
+	text-align: center;
+	margin:0 px;
+	padding: 2px;
+}
+.footer img{
+	height: 30px;
+	width: 60px;
+	margin: 0px;
+	padding: 16px;
+}
+
+.card:hover{
+	transform: scale(1.034);
+
+}
